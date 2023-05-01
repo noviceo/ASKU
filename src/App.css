@@ -1,13 +1,64 @@
-.header {
-    height: 80%;
-    background: blue;
+/*header*/
+div {
+    position: relative;
 }
 
+.header {
+    height: 25vh;
+    text-align: center;
+    background-color: blue;
+}
+
+.logo {
+    width: 25vw;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+.myPageButton {
+    position: absolute;
+    right: 10vw;
+    top: 2vh;
+    background-color: grey;
+    width: 10vw;
+    height: 5vh;
+}
+
+.searchbar {
+    position: absolute;
+    width: 60vw;
+    height: 4vh;
+    top: 10vh;
+    right: 25vw;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.searchbutton {
+    position: absolute;
+    width: 9vw;
+    height: 4.5vh;
+    right: 15vw;
+    top: 10vh;
+    background-color: grey;
+}
+
+.banner {
+    position: absolute;
+    width: 74vw;
+    height: 6vh;
+    top: 17vh;
+    right: 13vw;
+    background-color: grey;
+    border-radius: 6px;
+}
+
+/*wiki*/
 .body {
     display: flex;
-    height: 500px;
-    background: grey;
+    height: 80vh;
+    background-color: grey;
     justify-content: center;
+    position: relative;
 }
 
 .redbutton {
@@ -18,8 +69,8 @@
     border-radius: 6px;
     border:none;
     text-align: center;
-    width: 200px;
-    height: 50px;
+    width: 50vw;
+    height: 8vh;
     cursor: pointer;
     padding: 5px;
     position: absolute;
@@ -35,3 +86,5 @@
 a {
     text-decoration-line: none;
 }
+
+
