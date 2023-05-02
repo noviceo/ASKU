@@ -1,53 +1,65 @@
 /*header*/
-div {
+
+.header {
+    width: 100%;
+    height: 22vh;
+    text-align: center;
+    background-color: blue;
+    align-items: center;
     position: relative;
 }
 
-.header {
-    height: 25vh;
-    text-align: center;
-    background-color: blue;
+.headerContainer {
+    width: 100%;
+    display: flex;
+}
+
+.logoContainer {
+    width: 100%;
+    height: 20%;
 }
 
 .logo {
-    width: 25vw;
-    height: 5vh;
+    width: 25%;
+    height: 20%;
     margin-top: 2vh;
 }
 
 .myPageButton {
     position: absolute;
-    right: 10vw;
-    top: 2vh;
-    background-color: grey;
-    width: 10vw;
-    height: 5vh;
+    right: 10%;
+    top: 7%;
+    background-color: green;
+    width: 10%;
+    height: 15%;
 }
 
-.searchbar {
-    position: absolute;
-    width: 60vw;
+.searchBar {
+    width: 80%;
     height: 4vh;
-    top: 10vh;
-    right: 25vw;
     border-radius: 6px 0px 0px 6px;
 }
 
-.searchbutton {
+.searchButton {
     position: absolute;
-    width: 9vw;
+    width: 10%;
     height: 4.5vh;
-    right: 15vw;
-    top: 10vh;
     background-color: grey;
+    right: 9%;
+}
+
+.searchBarContainer {
+    margin-top: 2%;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .banner {
-    position: absolute;
-    width: 74vw;
+    width: 76%;
     height: 6vh;
-    top: 17vh;
-    right: 13vw;
+    margin-top: 20px;
+    margin-left: 12%;
     background-color: grey;
     border-radius: 6px;
 }
@@ -55,22 +67,22 @@ div {
 /*wiki*/
 .body {
     display: flex;
-    height: 80vh;
+    width: 100%;;
+    height: 78vh;
     background-color: grey;
-    justify-content: center;
     position: relative;
+    justify-content: center;
 }
 
 .redbutton {
     color: white;
     background-color: red;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 6px;
     border:none;
-    text-align: center;
-    width: 50vw;
-    height: 8vh;
+    width: 60%;
+    height: 12%;
     cursor: pointer;
     padding: 5px;
     position: absolute;
@@ -88,3 +100,34 @@ a {
 }
 
 
+
+/* 이 아래 코드가 웹 모바일 감지 위해서 넣은 코드 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  /* 모바일 뷰를 하나의 container로 잡고 제한 */
+  .mobile-view {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+
+  /* 이 부분부터 먼저추가!!!!!!!!!!!!!! */
+ /* 이는 우리가 보는 화면이 768이상으로 커졌을때 기존의 mobileview를 아래 코드로 반영 즉 아래가 웹뷰일때의 css*/
+  @media (min-width: 768px) {
+    .mobile-view {
+      display: flex;
+      position: relative;
+      width: 375px;
+      height: 667px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  }

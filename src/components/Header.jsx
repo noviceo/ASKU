@@ -3,10 +3,14 @@ import logo from '../img/logo.png';
 function Header() {
     return(
         <div className='header'>
-            <img src={logo} alt='logo' className='logo'></img>
-            <div className='myPageButton'></div>
-            <input className='searchbar' placeholder='입실렌티'/>
-            <div className='searchbutton'></div>
+            <div className>
+                <img src={logo} alt='logo' className='logo'></img>
+                <div className='myPageButton'></div>
+            </div>
+            <div className='searchBarContainer'>
+                <input className='searchBar' placeholder='입실렌티'/>
+                <div className='searchButton'></div>
+            </div>
             <div className='banner'></div>
         </div>
     );
