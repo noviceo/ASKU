@@ -3,7 +3,7 @@ import logo from '../img/logo.png';
 function Header() {
     return(
         <div className='header'>
-            <div className>
+            <div className='logoContainer'>
                 <img src={logo} alt='logo' className='logo'></img>
                 <div className='myPageButton'></div>
             </div>

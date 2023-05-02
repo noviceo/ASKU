@@ -131,3 +131,17 @@ a {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
   }
+
+
+/* 위키 관련 페이지 */
+.editResult {
+    white-space:pre-wrap;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30%;
+}
+
+
+.temporaryLogo {
+
+}
