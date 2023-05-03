@@ -34,6 +34,20 @@
     height: 15%;
 }
 
+.myPage {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    left: 25%;
+}
+
+.searchBarContainer {
+    margin-top: 4%;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
 .searchBar {
     width: 80%;
     height: 4vh;
@@ -47,14 +61,17 @@
     background-color: grey;
     right: 9%;
     margin-top: 1%;
+    align-items: center;
 }
 
-.searchBarContainer {
-    margin-top: 4%;
-    display: flex;
-    width: 90%;
-    margin-left: 5%;
+.search {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    left: 25%;
 }
+
+
 
 .banner {
     width: 76%;
@@ -131,6 +148,7 @@ a {
     bottom: 15%;
     right: 20%;
 }
+
 .backToHome {
     color: white;
     background-color: rgb(163, 159, 159);
@@ -146,6 +164,8 @@ a {
     bottom: 7%;
     right: 20%;
 }
+
+
 
 /* 이 아래 코드가 웹 모바일 감지 위해서 넣은 코드 */
 .container {
