@@ -22,6 +22,7 @@ function App() {
                     <Route path="/입실렌티" element={<WikiViewer />} />
                     <Route path="/wiki_edit" element={<WikiEdit />} />
                     <Route path="/wiki_edit_completed" element={<WikiEditCompleted />} />
+                    <Route path="/signup_completed" element={<SignUpCompleted />} />
                 </Routes>
             </Router>
         )

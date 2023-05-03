@@ -10,7 +10,7 @@ function WikiEditCompleted() {
                     <img className='temporaryLogo' src={temporaryLogo} alt='temporary_logo' />
                     <p>{editText}</p>
                     <p>{point}</p>
-                    <button className="redbutton">문서로 돌아가기</button>
+                    <button className="completedButton">문서로 돌아가기</button>
                 </div>
             </div>
         </div>
