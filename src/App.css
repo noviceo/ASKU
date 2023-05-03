@@ -23,6 +23,7 @@
     width: 25%;
     height: 80%;
     margin-top: 1vh;
+    cursor: pointer;
 }
 
 .myPageButton {
