@@ -167,6 +167,122 @@ a {
     bottom: 7%;
     right: 20%;
 }
+/* 로그인 */
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-img{
+    margin-left: 3px;
+    margin-top: 190px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+
+    
+}
+.login-form input{
+    width: 260px;
+    height: 33px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 7px;
+}
+.login-form #btn{
+    border-radius: 30px;
+    height: 40px;
+    background-color: #c72f44;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.login-form span{
+    font-size: 11px;
+    margin-left: 45px;
+}
+/* 회원가입 */
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 100px;
+}
+.info img{
+    margin-bottom: 20px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.signup-content input{
+    display: block;
+    height: 20px;
+    width: 200px;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h4{
+    margin: 7px 0px;
+}
+.content-in span{
+    display: block;
+    font-size: 7px;
+    padding: 8px 0px;
+}
+.phone-auth input{
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: none;
+    border-radius: 6px 0px 0px 6px;
+    margin-bottom: 5px;
+
+}
+.hidden{
+    display: none;
+}
+
+.phone-auth button{
+    background-color: #c72f44;
+    border: none;
+    height: 32px;
+    width: 60px;
+    color: white;
+    border-radius: 0px 6px 6px 0px;
+
+}
+#signup-btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    border: none;
+    background-color: #c72f44;
+    color: white;
+    border-radius: 6px;
+
+}
+
 
 
 
