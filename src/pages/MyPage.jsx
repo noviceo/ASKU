@@ -7,7 +7,7 @@ import {TbCoin} from 'react-icons/tb';
 import prelogo from '../img/prelogo.jpg';
 
 
-const Mypage=() => {
+function MyPage() {
   return (
     <div className='container'>
       <div className='banner'></div>
@@ -126,4 +126,4 @@ const Mypage=() => {
     
     
  
-export default Mypage;
+export default MyPage;
