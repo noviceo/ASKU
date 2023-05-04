@@ -219,7 +219,7 @@ a {
     padding-top: 100px;
 }
 .info img{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .signup-form{
     display: flex;
@@ -239,7 +239,7 @@ a {
     margin: 5px 0px;
     padding: 5px;
     font-size: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 h4{
@@ -252,7 +252,7 @@ h4{
 }
 .phone-auth input{
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: none;
     border-radius: 6px 0px 0px 6px;
     margin-bottom: 5px;
@@ -263,7 +263,7 @@ h4{
 }
 
 .phone-auth button{
-    background-color: #c72f44;
+    background-color: #d63d43;
     border: none;
     height: 32px;
     width: 60px;
@@ -274,7 +274,7 @@ h4{
 #signup-btn{
     width: 150px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 35px;
     border: none;
     background-color: #c72f44;
