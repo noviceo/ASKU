@@ -19,12 +19,13 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/입실렌티" element={<WikiViewer />} />
+                    <Route path="/wiki" element={<WikiViewer />} />
                     <Route path="/wiki_edit" element={<WikiEdit />} />
                     <Route path="/wiki_edit_completed" element={<WikiEditCompleted />} />
                     <Route path="/addindex_completed" element={<WikiEditCompleted/>} />
                     <Route path="/signup_completed" element={<SignUpCompleted />} />
                     <Route path="/lineup_event" element={<LineupEvent />} />
+                    <Route path="/mypage/:id" element={<MyPage />} />
                 </Routes>
             </Router>
         )

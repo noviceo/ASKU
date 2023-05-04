@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -9,7 +10,9 @@ function Home() {
                         <Header />
                     </div>
                     <div className="body">
-                        <button className="redbutton">입실렌티 함께하기!</button>
+                        <Link to='/wiki'>
+                            <button className="redbutton">입실렌티 함께하기!</button>
+                        </Link>
                     </div>
             </div>
         </div>
