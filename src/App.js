@@ -14,6 +14,13 @@ import WikiViewer from "./pages/WikiViewer";
 import { useEffect } from 'react';
 
 
+const router=createBrowserRouter([
+    {
+      path: "/Mypage",
+      element: <Mypage/>,
+    }
+]);
+
 function App() {
         return (
             <Router>
