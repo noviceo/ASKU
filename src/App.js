@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import AddIndex from "./pages/AddIndex";
 import CommentPage from "./pages/CommentPage";
 import LineupEvent from "./pages/LineupEvent";
-import Mypage from "./pages/MyPage";
+import MyPage from "./pages/MyPage";
 import SignUp from "./pages/SignUp";
 import SignUpCompleted from "./pages/SignUpCompleted";
 import WikiEdit from "./pages/WikiEdit";

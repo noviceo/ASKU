@@ -113,9 +113,6 @@ function MyPage() {
             <div className="title" id='askupagemove_title'>
               <h3 className="title_text" id='askupagemove_text'>ASKu페이지</h3>
             </div>
-            <div className='bettingmove' id='bettingmove'>
-              <h6 className='move_bet' id='move_bet'>배팅 사이트</h6> 
-            </div>
           </div>
 
         </div>
