@@ -1,10 +1,17 @@
 import Modal from 'react-modal';
+import { useState } from 'react';
 
 function AddLineupModal() {
+    const [modalOpen, setModalOpen] = useState(false);
     return (
-        <Modal isOpen={true}>
-            This is Modal Content.
-        </Modal>
+        <div>
+            <button onClick={() => setModalOpen(true)}>Modal Open</button>
+            <Modal isOpen={modalOpen} onRequestClose={() => setModalOpen}>
+                This is Modal content
+                <button onClick={() => setModalOpen(false)}>Modal close</button>
+            </Modal>
+        </div>
+        
     );
 };
 
